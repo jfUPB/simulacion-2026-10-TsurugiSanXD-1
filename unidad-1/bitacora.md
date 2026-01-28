@@ -23,3 +23,4 @@ La aletoriedad le da un factor de cratividad sorpresa al arte generativo.
 
 
 
+

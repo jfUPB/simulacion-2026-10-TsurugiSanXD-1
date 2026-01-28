@@ -16,8 +16,13 @@ La aletoriedad le da un factor de cratividad sorpresa al arte generativo.
 ## **Actividad 7.*
 ##
 *1)R:\* Una obra generativa es basicamente una creación artistica basada en la alatoriedad y el tiempo para producir resultados variables (que no son fijos). En las obras genarativas el artistas en vez de hacer algo fijo, que tenga la misma apariencia crea una serie de instrucciones/normas que seguir para que la obra cambie por si misma, lo cual, hace que la obra nunca sea la misma. Ya que la obra depende de la aleatoriedad esta siempre sera diferente dependiende la acción que el usuario ejecute con ella, la cual la convierte en una experiencia unica siempre. 
-* *
-* *
+
+
+*2)R:\* **Link al codigo en p5:** https://editor.p5js.org/luisafer1845/sketches/YaxjOJLqG
+
+*3)R:\* **Captura de pantalla:**
+
+<img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/c4cc5e7b-85ba-4ad0-b73c-87ec4541713c" />
 
 
 ## Bitácora de aplicación 
@@ -25,6 +30,7 @@ La aletoriedad le da un factor de cratividad sorpresa al arte generativo.
 
 
 ## Bitácora de reflexión
+
 
 
 

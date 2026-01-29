@@ -69,21 +69,25 @@ class Walker {
 
 1)R:\ **¿Ques una obra generativa?**
 Una obra generativa es basicamente una creación artistica basada en la alatoriedad y el tiempo para producir resultados variables (que no son fijos). En las obras genarativas el artistas en vez de hacer algo fijo, que tenga la misma apariencia crea una serie de instrucciones/normas que seguir para que la obra cambie por si misma, lo cual, hace que la obra nunca sea la misma. Ya que la obra depende de la aleatoriedad esta siempre sera diferente dependiende la acción que el usuario ejecute con ella, la cual la convierte en una experiencia unica siempre. 
-## 
-
+<br>
+<br>
+<br>
 2)R:\ **Link al codigo en p5:** https://editor.p5js.org/luisafer1845/sketches/YaxjOJLqG
-##
-
+<br>
+<br>
+<br>
 3)R:\ **Captura de pantalla:**
 
 <img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/c4cc5e7b-85ba-4ad0-b73c-87ec4541713c" />
-## 
-
+<br>
+<br>
+<br>
 ## Bitácora de aplicación 
 
 
 
 ## Bitácora de reflexión
+
 
 
 

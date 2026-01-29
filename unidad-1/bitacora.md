@@ -9,7 +9,53 @@ La aletoriedad le da un factor de cratividad sorpresa al arte generativo.
 
 
 ## ***Actividad 2.***
+**¿Que espero que suceda?**
+R\: Con las modificaciones que hice espero que cambie de color a un azul, que en la pantalla se muestre una elipse en vez de un punto y que la elipse suba más de lo que.
 
+***¿Que paso realmente?*** 
+R\: Cuando ejecute el codigo casi todo lo que plantee funciono. En vez de un punto tenia una elipse, la elipse si era de color azul, pero lo que me fallo fue el movimiento, dado que la elipse se quedo quieta en el centro. Fue facil de solucinar porque en realidas solo habia pasado que en uno de los condicionales escribí "choise" en vez de "choice", pero cuando corregi la sintaxis ya funciono como yo esperaba.
+
+´´
+let walker;
+
+function setup() {
+  createCanvas(640, 240);
+  walker = new Walker();
+  background(255);
+}
+
+function draw() {
+  walker.step();
+  walker.show();
+}
+
+class Walker {
+  constructor() {
+    this.x = width / 2;
+    this.y = height / 2;
+  }
+
+  show() {
+    stroke(100, 150, 255);
+    ellipse(this.x, this.y, 4, 4);
+  }
+
+  step() {
+    const choice = floor(random(5));
+    if (choice == 0) {
+      this.x++;
+    } else if (choice == 1) {
+      this.x--;
+    } else if (choice == 2) {
+      this.y++;
+    } else if (choice == 3){
+      this.y--;
+    } else {
+      this.y--;
+    }
+  }
+}
+´´
 
 ## ***Actividad 3.***
 
@@ -34,6 +80,7 @@ Una obra generativa es basicamente una creación artistica basada en la alatorie
 
 
 ## Bitácora de reflexión
+
 
 
 

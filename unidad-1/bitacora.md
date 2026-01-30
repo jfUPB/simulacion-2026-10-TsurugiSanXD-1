@@ -65,6 +65,54 @@ class Walker {
 
 1)R:\ La diferencia entre la distribución uniforme y la no uniforme consiste en, que ladistrobucipon uniforme podemos tomarla por así decirlo como igualitaria, dado que todas las variables tendran la misma probabilidad de "creecer" por así decirlo. En cambio la ditribución uniforme no actua igual para todas las variables, habra unas que creceran más rapido que otras, dado que las probabilidades no seran iguales y el mayor crecimiento se vera en en la media de las variables.
 
+## ***Codigo: Modificación traditional random walker donde se favorezca ir a la derecha***
+
+```java
+let walker;
+
+function setup() {
+  createCanvas(640, 240);
+  walker = new Walker();
+  background(255);
+}
+
+function draw() {
+  walker.step();
+  walker.show();
+}
+
+class Walker {
+  constructor() {
+    this.x = width / 2;
+    this.y = height / 2;
+  }
+
+  show() {
+    stroke(255, 150, 255);
+    ellipse(this.x, this.y, 4, 4);
+    fill(100, 150, 255, 255);
+  }
+
+  step() {
+    const choice = floor(random(5));
+    if (choice == 0) {
+      this.x++;
+    } else if (choice == 1) {
+      this.x++;
+    } else if (choice == 2) {
+      this.y++;
+    } else if (choice == 3){
+      this.x++;
+    } else {
+      this.y--;
+    }
+  }
+}
+```
+
+## **Actividad 4.**
+
+
 ## **Actividad 7.**
 
 1)R:\ **¿Ques una obra generativa?**
@@ -87,6 +135,7 @@ Una obra generativa es basicamente una creación artistica basada en la alatorie
 
 
 ## Bitácora de reflexión
+
 
 
 

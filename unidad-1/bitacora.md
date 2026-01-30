@@ -222,7 +222,8 @@ class Walker {
 <br>
 
 ***Captura de pantalla:***
-<img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/650504b1-7979-4b72-9a93-8ca2f669d00b" />
+<img width="1919" height="815" alt="image" src="https://github.com/user-attachments/assets/9c078ec5-31d9-4532-86b4-e48eb233d580" />
+
 
 ## ***Actividad 6.***
 
@@ -312,6 +313,7 @@ Una obra generativa es basicamente una creación artistica basada en la alatorie
 
 
 ## Bitácora de reflexión
+
 
 
 

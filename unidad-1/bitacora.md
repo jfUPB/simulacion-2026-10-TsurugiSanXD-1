@@ -111,7 +111,7 @@ class Walker {
 ```
 
 ## **Actividad 4.**
-**Codigo**
+***Codigo***
 ```java
 let bins = [];
 let numBins = 40;
@@ -154,11 +154,11 @@ function draw() {
 <br>
 <br>
 <br>
-**Link al codigo en p5:** https://editor.p5js.org/luisafer1845/sketches/iffAJJKJs
+***Link al codigo en p5:*** https://editor.p5js.org/luisafer1845/sketches/iffAJJKJs
 <br>
 <br>
 <br>
-**Captura de pantalla**
+***Captura de pantalla***
 <img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/17a45cd0-1e7d-43db-ad28-65b68c775794" />
 
 ## **Actividad 7.**
@@ -183,6 +183,7 @@ Una obra generativa es basicamente una creación artistica basada en la alatorie
 
 
 ## Bitácora de reflexión
+
 
 
 

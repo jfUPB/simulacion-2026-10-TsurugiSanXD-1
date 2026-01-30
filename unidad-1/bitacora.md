@@ -111,7 +111,55 @@ class Walker {
 ```
 
 ## **Actividad 4.**
+**Codigo**
+```java
+let bins = [];
+let numBins = 40;
 
+function setup() {
+  createCanvas(640, 240);
+  background(255);
+
+  // inicializamos el histograma
+  for (let i = 0; i < numBins; i++) {
+    bins[i] = 0;
+  }
+}
+
+function draw() {
+  background(255);
+
+  // generar un valor con distribución normal
+  let x = randomGaussian(width / 2, 60);
+
+  // convertir el valor a un índice del histograma
+  let index = floor(map(x, 0, width, 0, numBins));
+
+  if (index >= 0 && index < numBins) {
+    bins[index]++;
+  }
+
+  // dibujar las barras
+  let w = width / numBins;
+
+  for (let i = 0; i < numBins; i++) {
+    let h = bins[i];
+    fill(120, 150, 255);
+    noStroke();
+    rect(i * w, height - h, w - 1, h);
+  }
+}
+
+```
+<br>
+<br>
+<br>
+**Link al codigo en p5:** https://editor.p5js.org/luisafer1845/sketches/iffAJJKJs
+<br>
+<br>
+<br>
+**Captura de pantalla**
+<img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/17a45cd0-1e7d-43db-ad28-65b68c775794" />
 
 ## **Actividad 7.**
 
@@ -135,6 +183,7 @@ Una obra generativa es basicamente una creación artistica basada en la alatorie
 
 
 ## Bitácora de reflexión
+
 
 
 

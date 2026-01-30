@@ -164,7 +164,8 @@ function draw() {
 <img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/17a45cd0-1e7d-43db-ad28-65b68c775794" />
 
 ## **Actividad 5.**
-Bueno, para esta tecnica utilice LÉVY FLIGHT debido a que queria lograr hacer saltos grandes y aleatorios. Utilizando el codigo del traditional random walk con algunas modificaciones implemente en el codigo un par de lineas con las que espero lograr que el random walk ya no sea totalmente seguido, si no que puedar dar saltos y desplazarse a los largo de todo el canva.
+
+**Resultado esperado:** Bueno, para esta tecnica utilice LÉVY FLIGHT debido a que queria lograr hacer saltos grandes y aleatorios. Utilizando el codigo del traditional random walk con algunas modificaciones implemente en el codigo un par de lineas con las que espero lograr que el random walk ya no sea totalmente seguido, si no que puedar dar saltos y desplazarse a los largo de todo el canva.
 
 ***Codigo***
 ```java
@@ -222,6 +223,54 @@ class Walker {
 ***Captura de pantalla:***
 <img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/650504b1-7979-4b72-9a93-8ca2f669d00b" />
 
+## ***Actividad 6.***
+
+**Resultado esperado:** Para esta parte pretendia simular más o menos el movimiento de una nube, por eso lo hice con varios circulos Ya para el funcionamiento, esperaba mostrar el concepto de ruido perlin a través de hacer que el circulo se moviera suavemente y sin cambios muy grandes entra cada "paso" que daba; quiero mostrar un movimiento continuo y natural.
+
+***Codigo***
+```java
+let t = 0;
+
+function setup() {
+  createCanvas(640, 240);
+}
+
+function draw() {
+  background(135, 206, 235); // cielo azul
+
+  // posición base vertical (la nube se mantiene a esta altura)
+  let baseY = height / 2;
+
+  // ruido Perlin para movimiento horizontal
+  let offsetX = map(noise(t), 0, 1, -100, 100);
+
+  // posición base horizontal + movimiento suave
+  let baseX = width / 2 + offsetX;
+
+  noStroke();
+  fill(255, 230); // blanco con un poco de transparencia
+
+  // dibujamos varios círculos = nube
+  circle(baseX - 40, baseY, 50);
+  circle(baseX, baseY - 10, 60);
+  circle(baseX + 40, baseY, 50);
+  circle(baseX + 10, baseY + 10, 45);
+
+  // avanzar suavemente en el ruido
+  t += 0.01;
+}
+```
+<br>
+<br>
+<br>
+
+***Link al codigo en p5:*** https://editor.p5js.org/luisafer1845/sketches/8cRvwr9WK
+<br>
+<br>
+<br>
+
+***Captura de pantalla:***
+<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/f6510e58-c47f-4408-a396-c1cd6948973f" />
 
 ## **Actividad 7.**
 
@@ -245,6 +294,7 @@ Una obra generativa es basicamente una creación artistica basada en la alatorie
 
 
 ## Bitácora de reflexión
+
 
 
 

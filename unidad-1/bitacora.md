@@ -163,6 +163,66 @@ function draw() {
 ***Captura de pantalla:***
 <img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/17a45cd0-1e7d-43db-ad28-65b68c775794" />
 
+## **Actividad 5.**
+Bueno, para esta tecnica utilice LÉVY FLIGHT debido a que queria lograr hacer saltos grandes y aleatorios. Utilizando el codigo del traditional random walk con algunas modificaciones implemente en el codigo un par de lineas con las que espero lograr que el random walk ya no sea totalmente seguido, si no que puedar dar saltos y desplazarse a los largo de todo el canva.
+
+***Codigo***
+```java
+let walker;
+
+function setup() {
+  createCanvas(640, 240);
+  walker = new Walker();
+  background(100, 150, 255, 50);
+}
+
+function draw() {
+  walker.step();
+  walker.show();
+}
+
+class Walker {
+  constructor() {
+    this.x = width / 2;
+    this.y = height / 2;
+  }
+
+  show() {
+    stroke(200, 255, 100, 100);
+    square(this.x, this.y, 20);
+  }
+
+  step() {
+    // tamaño del paso
+    let stepSize = random(1);
+
+    // de vez en cuando, salto grande
+    if (random(1) < 0.01) {
+      stepSize = random(50, 120);
+    }
+
+    let direction = floor(random(4));
+
+    if (direction === 0) this.x += stepSize;
+    else if (direction === 1) this.x -= stepSize;
+    else if (direction === 2) this.y += stepSize;
+    else this.y -= stepSize;
+  }
+}
+```
+<br>
+<br>
+<br>
+
+***Link al codigo en p5:*** https://editor.p5js.org/luisafer1845/sketches/9woKjoJux
+<br>
+<br>
+<br>
+
+***Captura de pantalla:***
+<img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/650504b1-7979-4b72-9a93-8ca2f669d00b" />
+
+
 ## **Actividad 7.**
 
 1)R:\ **¿Ques una obra generativa?**
@@ -185,6 +245,7 @@ Una obra generativa es basicamente una creación artistica basada en la alatorie
 
 
 ## Bitácora de reflexión
+
 
 
 

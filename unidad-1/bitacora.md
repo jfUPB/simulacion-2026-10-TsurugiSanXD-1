@@ -289,11 +289,29 @@ Una obra generativa es basicamente una creación artistica basada en la alatorie
 <br>
 <br>
 <br>
+
+## ***Actividad 8.***
+
+**1)R\:** **Diferencia entre random() y noise() ¿En que casos se utilizan?:** La principal diferencia es como actuan estos dos; mientras random da valores completamente al azar, que pueden estar muy dispersos entre si, causando cambios bruscos e impredecibles. Por otro lado, noise es mucho más organizado, el movimiento es mucho más suave y continuo, ya que al tomar valores muy cercanos entre si hace que el movimiento sea más natural y tenga transiciones suaves.
+<br>
+<br>
+
+**2)R\:** **distribución de probabilidad ¿Qué diferencia visual produce una caminata aleatoria con una distribución uniforme versus una con una distribución normal?** Una distribución de probabilidad basicamente describe qué tan probable es que aparezcan ciertos valores cuando usamos números aleatorios. La principal diferencia entre estas dos es que en la distribución unirforme al tener todos los valores la misma probabilidad hace que en una caminata aleatoria se vea mucho más dispersa y tenga saltos más bruscos e impredecibles, en cambio, la caminata normal esta más llevada por un promedio, los valores tienden a quedarse más en el centro, probocando que en una caminada aleatoria se vean acumulaciones y zonas mucho más oscuras, junto con un movimiento más controlado.
+<br>
+<br>
+
+**3)R\:** **¿Cuál es el papel de la aleatoriedad en el arte generativo?** La aleatoriedad es importante en el arte generativo dado que es lo que le brinda la capacidad al codigo de introducir una **variación** que hace que cada interacción con el codigo en tiempo real sea totalmente nueva usando el mismo codigo. Tambien rompe **patrones rigidos** que hacen que las obras sean demasido perfectas o hasta iguales, donde así un resultado más natural a través de la aleatoriedad.
+
+**4)R\:** En mi obra final utilicé aleatoriedad uniforme mediante la función random(), aplicada al color, tamaño y posición de las figuras, combinada con la interacción del mouse. Esta elección fue adecuada porque permitió generar variaciones constantes dentro de rangos controlados, haciendo que cada interacción produjera un resultado distinto sin perder coherencia visual. La aleatoriedad uniforme aporta dinamismo y hace que la obra sea verdaderamente generativa, ya que no se repite nunca de la misma forma y responde directamente al usuario.
+
+**5)R\:** **¿Qué es un “paseo” o “caminata” (walk) en el contexto de la simulación? ¿Qué característica particular tiene una caminata de tipo “Lévy flight”?:** Un paseo o walk en simulación es basicamente un proceso en donde un objeto se mueve paso a paso, el cual decide en que dirección ir según valores aleatorios. En el caso de una caminata tipo Lévy flight consiste en que una caminata se ejecute y basado en una probabilidad establecida en el codigo de repente en el walk se va a dar un paso muy grande, por ejemplo: el sistema va contando 1,2,3... y de repende cae en el valor de la probabilidad establecida y pum salta a otra posición muy alejada y totalmente aleatoria.
+
 ## Bitácora de aplicación 
 
 
 
 ## Bitácora de reflexión
+
 
 
 

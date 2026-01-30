@@ -281,13 +281,15 @@ Una obra generativa es basicamente una creación artistica basada en la alatorie
 <br>
 <br>
 <br>
+
 2)R:\ **Link al codigo en p5:** https://editor.p5js.org/luisafer1845/sketches/YaxjOJLqG
 <br>
 <br>
 <br>
-3)R:\ **Captura de pantalla:**
 
-<img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/c4cc5e7b-85ba-4ad0-b73c-87ec4541713c" />
+3)R:\ **Captura de pantalla:**
+<img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/86126318-2ebf-4cec-a319-915714a805bf" />
+
 <br>
 <br>
 <br>
@@ -313,6 +315,7 @@ Una obra generativa es basicamente una creación artistica basada en la alatorie
 
 
 ## Bitácora de reflexión
+
 
 
 

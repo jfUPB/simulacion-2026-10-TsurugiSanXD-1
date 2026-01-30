@@ -161,7 +161,8 @@ function draw() {
 <br>
 
 ***Captura de pantalla:***
-<img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/17a45cd0-1e7d-43db-ad28-65b68c775794" />
+<img width="1918" height="811" alt="image" src="https://github.com/user-attachments/assets/5966deda-1b49-467e-874a-965fab4b5e68" />
+
 
 ## **Actividad 5.**
 
@@ -311,6 +312,7 @@ Una obra generativa es basicamente una creación artistica basada en la alatorie
 
 
 ## Bitácora de reflexión
+
 
 
 
